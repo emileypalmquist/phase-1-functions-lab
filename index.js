@@ -3,8 +3,11 @@
 // console log to print in javascript
 // print word hello
 
-function printHello() {
-  console.log("hello");
-}
+function distanceFromHqInBlocks( pickupLocation ) {
 
-printHello();
+  /* HQ is on 42nd St. */
+
+  // Math.abs turns numbers positive
+  return Math.abs( 42 - pickupLocation )
+
+}
