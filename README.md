@@ -1,7 +1,5 @@
 # Functions Lab
 
-hello WORLD
-
 ## Learning Goals
 
 - Practice writing functions
