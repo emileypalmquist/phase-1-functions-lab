@@ -1,6 +1,6 @@
 # Functions Lab
 
-hello
+hello WORLD
 
 ## Learning Goals
 
