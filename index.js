@@ -1,10 +1,5 @@
-// create a function that prints hello
-// create a function
-// console log to print in javascript
-// print word hello
-
-function printHello() {
-  console.log("hello");
+function getRamens() {
+  fetch('http://localhost:3000/ramens')
+  .then((resp) => resp.json() )
+  .then((data) => console.log(data))
 }
-
-printHello();
